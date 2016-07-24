@@ -16,8 +16,12 @@ class Batcher
      * @param int      $size
      * @param callable $callback
      */
-    public function __construct($size, callable $callback)
+    public function __construct($size, $callback)
     {
+        if (!is_callable($callback)) {
+            throw new \InvalidArgumentException('$callback must be of callable type');
+        }
+
         $this->size     = $size;
         $this->queue    = new SplQueue();
         $this->callback = $callback;
