@@ -3,8 +3,8 @@
   "type": "library",
   "description": "Perform batch operations",
   "keywords": [
-    "uri",
-    "url"
+    "batch",
+    "bulk"
   ],
   "homepage": "http://github.com/zobzn/batcher",
   "license": [
