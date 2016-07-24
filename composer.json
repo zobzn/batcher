@@ -1,0 +1,34 @@
+{
+  "name": "zobzn/zbz-batcher",
+  "type": "library",
+  "description": "Perform batch operations",
+  "keywords": [
+    "uri",
+    "url"
+  ],
+  "homepage": "http://github.com/zobzn/zbz-batcher",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Semen Tokarev",
+      "email": "zlobzn@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "fabpot/php-cs-fixer": "^1.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zbz\\": "src/Zbz"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
