@@ -1,6 +1,6 @@
 <?php
 
-namespace Zbz;
+namespace Zobzn;
 
 use SplQueue;
 

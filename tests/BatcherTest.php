@@ -6,7 +6,7 @@ class BatcherTest extends PHPUnit_Framework_TestCase
     {
         $tmp = array();
 
-        $batcher = new \Zbz\Batcher(3, function (array $items) use (&$tmp) {
+        $batcher = new \Zobzn\Batcher(3, function (array $items) use (&$tmp) {
             $tmp = $items;
         });
 

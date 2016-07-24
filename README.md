@@ -1,6 +1,6 @@
-# zbz-batcher
+# zobzn/batcher
 
-[![Build Status](https://img.shields.io/travis/zobzn/zbz-batcher/master.svg?style=flat-square)](https://travis-ci.org/zobzn/zbz-batcher)
+[![Build Status](https://img.shields.io/travis/zobzn/batcher/master.svg?style=flat-square)](https://travis-ci.org/zobzn/batcher)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 Perform batch operations
@@ -8,7 +8,7 @@ Perform batch operations
 ## Installation
 
 ```bash
-composer require zobzn/zbz-batcher
+composer require zobzn/batcher
 ```
 
 ## Basic Usage
@@ -16,7 +16,7 @@ composer require zobzn/zbz-batcher
 ```php
 require_once __DIR__ . '/vendor/autoload.php';
 
-$batcher = new \Zbz\Batcher(30, function (array $items) {
+$batcher = new \Zobzn\Batcher(30, function (array $items) {
     var_export($items);
 });
 

@@ -1,12 +1,12 @@
 {
-  "name": "zobzn/zbz-batcher",
+  "name": "zobzn/batcher",
   "type": "library",
   "description": "Perform batch operations",
   "keywords": [
     "uri",
     "url"
   ],
-  "homepage": "http://github.com/zobzn/zbz-batcher",
+  "homepage": "http://github.com/zobzn/batcher",
   "license": [
     "MIT"
   ],
@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Zbz\\": "src/Zbz"
+      "Zobzn\\": "src/Zobzn"
     }
   },
   "scripts": {
